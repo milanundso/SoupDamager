@@ -57,7 +57,7 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new Kit(), this);
 
 
-        // Soup-Zonen initialisieren
+        // Initialisierung von allen soup zones
         org.bukkit.World world = Bukkit.getWorlds().get(0);
         soupZones.add(new SoupZone(new Location(world, -9993, 41, 109946), 5.0));
         soupZones.add(new SoupZone(new Location(world, -10002, 41, 109945), 7.0));
