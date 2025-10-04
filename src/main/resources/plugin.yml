@@ -1,0 +1,22 @@
+name: SoupDamager
+version: 1.0.0
+description: plugin zum soupdamager
+author: Milan
+main: ltc.milan.soupdamager.Main
+api-version: 1.8
+
+commands:
+  soupdamagerbuild:
+    description: Toggle Build-Mode für SoupDamager
+    usage: /soupdamagerbuild
+
+
+
+
+permissions:
+  soupdamager.admin:
+    description: Access zum SoupDamager-Befehl um Ticks zu ändern
+    default: op
+  soupdamager.cosmetics:
+    description: Access zum cosmetics menu
+    default: true
