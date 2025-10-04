@@ -48,7 +48,7 @@ public class Main extends JavaPlugin {
         hologramme.spawnHolograms();
 
 
-        // Passive Helferklassen starten
+        // helferklassen werden gestartet
         new AreaManager(this);
         new ZoneItemCleaner(this);
         new SpawnSetter(this, soupZones);
