@@ -42,13 +42,12 @@ public class Main extends JavaPlugin {
 
         logBanner("Soup Damager Plugin - Made by Milan");
 
-        // Hologramme spawnen
+        // hologramme
         this.hologramme = new Hologramme(this);
         hologramme.cleanupOldHolograms();
         hologramme.spawnHolograms();
 
 
-        // helferklassen werden gestartet
         new AreaManager(this);
         new ZoneItemCleaner(this);
         new SpawnSetter(this, soupZones);
@@ -57,7 +56,6 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new Kit(), this);
 
 
-        // Initialisierung von allen soup zones
         org.bukkit.World world = Bukkit.getWorlds().get(0);
         soupZones.add(new SoupZone(new Location(world, -9993, 41, 109946), 5.0));
         soupZones.add(new SoupZone(new Location(world, -10002, 41, 109945), 7.0));
@@ -68,14 +66,12 @@ public class Main extends JavaPlugin {
 
 
 
-        // Mechanics initialisieren
         this.mechanics = new Mechanics(this);
         getServer().getPluginManager().registerEvents(mechanics, this);
         mechanics.startDamageTask();
         getLogger().info(ANSI_GREEN + "[SoupDamager] Mechanics wurden aktiviert" + ANSI_RESET);
 
 
-        // CrapDamager zuletzt initialisieren
         new CrapDamager(this);
     }
 
