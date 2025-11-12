@@ -15,10 +15,10 @@ Each zone has a different **difficulty level** and **damage intensity**, allowin
 
 ## Features
 
-- - Multiple **Soup Zones** with varying difficulty  
-- - **Hardcoded Zone Positions** for consistency  
-- - **Holograms** above each damager for clear identification  
-- - **Randomized Crap Damager** item drops  
+- Multiple **Soup Zones** with varying difficulty  
+- **Hardcoded Zone Positions** for consistency  
+- **Holograms** above each damager for clear identification  
+- **Randomized Crap Damager** item drops  
 
 ---
 
