@@ -64,13 +64,10 @@ public class Mechanics implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
 
-        // Spawn Location definieren (die gleiche wie in deinem Code)
         Location spawnLocation = new Location(Bukkit.getWorlds().get(0), -10002, 49, 109970);
 
-        // Player zum Spawn teleportieren
         player.teleport(spawnLocation);
 
-        // Optional: Spawn Item geben (falls der Spieler nicht in einer Zone ist)
         ItemStack spawnItem = new ItemStack(Material.ENDER_PORTAL_FRAME);
         ItemMeta meta = spawnItem.getItemMeta();
         meta.setDisplayName("§aSet Spawnpoint");
@@ -211,7 +208,6 @@ public class Mechanics implements Listener {
     public void onPlayerRespawn(PlayerRespawnEvent event) {
         Player player = event.getPlayer();
         if (playersInZone.contains(player)) {
-            // Optional respawn logic
         }
     }
 
