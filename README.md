@@ -1,11 +1,10 @@
-# 🥣 Soup Damager (Minecraft 1.8.9)
+#  Soup Damager for Minecraft 1.8.8
 
-A lightweight **Spigot plugin** designed for **PvP soup training** in Minecraft **1.8.9**.  
-This plugin allows players to **practice their souping reflexes** and **improve muscle memory** by receiving configurable damage inside defined *soup zones*.
+A lightweight **Spigot plugin** designed for **PvP soup training** in Minecraft **1.8.8**.  
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 The **Soup Damager** plugin is a training tool for PvP players who want to get better at **hotkeying and souping under pressure**.  
 When a player enters specific **Soup Zones**, they’ll periodically take damage, forcing them to **soup efficiently** to survive.
@@ -14,17 +13,16 @@ Each zone has a different **difficulty level** and **damage intensity**, allowin
 
 ---
 
-## ⚙️ Features
+## Features
 
-- ✅ Multiple **Soup Zones** with varying difficulty  
-- ✅ **Hardcoded Zone Positions** for consistency  
-- ✅ **Holograms** above each damager for clear identification  
-- ✅ **Randomized Crap Damager** item drops  
-- ✅ Designed specifically for **Minecraft 1.8.9 PvP**
+- - Multiple **Soup Zones** with varying difficulty  
+- - **Hardcoded Zone Positions** for consistency  
+- - **Holograms** above each damager for clear identification  
+- - **Randomized Crap Damager** item drops  
 
 ---
 
-## 📍 Soup Zones
+##  Soup Zones
 
 The plugin defines several **hardcoded soup zones** in the **main class**:
 
