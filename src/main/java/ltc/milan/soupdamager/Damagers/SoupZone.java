@@ -1,10 +1,3 @@
-/*
-
-Hier wird einfach nur festgelegt was eine zone ist, nämlich die koordinate die ich angegeben habe + 5 blöcke in jede richtung
-bzw. 2 blöcke nach oben ebenfalls.
-
- */
-
 package ltc.milan.soupdamager.Damagers;
 
 import org.bukkit.Location;
