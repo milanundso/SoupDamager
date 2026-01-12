@@ -1,9 +1,4 @@
-/*
 
-Das ist basically ein listener, der die statistics checkt und wieder geben kann, wieviele Suppen man gegessen hat,
-wie lange man im damager war, usw.
-
- */
 
 package ltc.milan.soupdamager.Statistics;
 
