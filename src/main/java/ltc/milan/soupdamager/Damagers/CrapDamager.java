@@ -1,10 +1,3 @@
-/*
-
-Das ist die ganze Mechanik rund um den CrapDamager, wo einfach die items definiert werden und
-random ausgelost wird, wie schnell welche items kommen, damit es wirklich random ist.
-
- */
-
 package ltc.milan.soupdamager.Damagers;
 
 import ltc.milan.soupdamager.Main;
